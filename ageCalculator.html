@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">     <!-- icons link -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+      .page{
+        font-size: x-large;
+        font-weight: bold;
+        height: 400px;
+        width: 500px;
+        border: 1px solid black;
+        text-align: center;
+        background-color: #006266;
+        color: white;
+        font-family: 'Merriweather', serif;
+            }
+      .page h2{
+        color: orange;
+      }
+      #inputdate{
+        margin-left: 30px;
+        width: 130px;
+        height: 30px;
+        font-size: large;
+        border-radius: 5px;
+        
+      }
+     .buttonclass {
+        font-size: large;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        height: 30px;
+      }
+      #resetbutton{
+        margin-left: 25px;
+      }
+      .icons{
+        margin-right: 15px;
+        margin-top: 40px;
+        color: white;
+       
+       
+      }
+      
+    </style>
+</head>
+
+<body>
+    <form class="page">
+        <h2>Calculate Age</h2>
+        
+        <label for="">Select Age</label>
+        <input type="date" id="inputdate">
+        
+        <p class="buttonclass">
+        <button class="buttonclass" type="button">Calculate Age</button>
+        <button class="buttonclass" type="reset" id="resetbutton">Reset</button>
+        </p>
+        
+        <p>Calculate Age is ==</p>
+    
+       <p class="icons">
+        <a class="icons"href="https://twitter.com/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a class="icons"href="https://www.linkedin.com/login"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
+        <a class="icons" href="https://www.facebook.com/login/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a class="icons" href="https://www.instagram.com/accounts/login/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+
+       </p>
+      </form>
+</body>
+</html>
